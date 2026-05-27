@@ -4,3 +4,10 @@ class Pet:
         self.__name = pet_name
         self.__animal_type = pet_type
         self.__age = int(pet_age)
+
+        # Part 2: Eto na yung mga setters natin para sa pangalan at type ng hayop. Para kapag naisipan mong palitan yung pangalan ng aso mo from 'Bantay' to 'Dogzilla', pwedeng-pwede at safe ang data.
+    def set_name(self, pet_name):
+        self.__name = pet_name
+        
+    def set_animal_type(self, pet_type):
+        self.__animal_type = pet_type
