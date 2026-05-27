@@ -11,3 +11,7 @@ class Pet:
         
     def set_animal_type(self, pet_type):
         self.__animal_type = pet_type
+
+        # Part 3: Hiwalay na setter para sa age. Nilagyan ko ng int() cast para sure na number yung papasok, baka kasi may mag-type ng salitang 'twenty' tapos mag-collapse yung system natin.
+    def set_age(self, pet_age):
+        self.__age = int(pet_age)
