@@ -35,3 +35,20 @@ def test_pet_program():
     user_input_name = input("Enter the name of your pet: ")
     user_input_type = input("Enter the type of animal (e.g., Dog, Cat, Capybara): ")
     user_input_age = input("Enter the age of your pet: ")
+
+    # Part 7: Ang finale! Gagawa tayo ng Pet object, gagamitin ang setters para i-save ang input, at ang getters (accessors) para i-display yung final ID gaya ng inutos ng instructions. Run na natin!
+    my_new_pet = Pet()
+    
+    my_new_pet.set_name(user_input_name)
+    my_new_pet.set_animal_type(user_input_type)
+    my_new_pet.set_age(user_input_age)
+    
+    print("\n🐾 ==== OFFICIAL PET RECORD ==== 🐾")
+    print(f"| Pet Name    : {my_new_pet.get_name()}")
+    print(f"| Animal Type : {my_new_pet.get_animal_type()}")
+    print(f"| Pet Age     : {my_new_pet.get_age()} years old")
+    print("=================================\n")
+    
+
+if __name__ == "__main__":
+    test_pet_program()
