@@ -30,3 +30,8 @@ class Pet:
 
 def test_pet_program():
     print("\n[ WELCOME TO THE VIRTUAL PET CLINIC ]\n")
+
+    # Part 6: Oras na para mag-interview! Kukunin natin sa user yung name, type, at age ng pet nila. Gagamit tayo ng descriptive snake_case variables para malinis basahin at walang magagalit.
+    user_input_name = input("Enter the name of your pet: ")
+    user_input_type = input("Enter the type of animal (e.g., Dog, Cat, Capybara): ")
+    user_input_age = input("Enter the age of your pet: ")
