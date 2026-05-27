@@ -22,3 +22,11 @@ class Pet:
         
     def get_animal_type(self):
         return self.__animal_type
+    
+    # Part 5: Eto yung huling getter para sa edad. Pati yung pag-setup ng main testing function natin para maayos yung flow ng program pag-run sa terminal.
+    def get_age(self):
+        return self.__age
+        
+
+def test_pet_program():
+    print("\n[ WELCOME TO THE VIRTUAL PET CLINIC ]\n")
