@@ -15,3 +15,10 @@ class Pet:
         # Part 3: Hiwalay na setter para sa age. Nilagyan ko ng int() cast para sure na number yung papasok, baka kasi may mag-type ng salitang 'twenty' tapos mag-collapse yung system natin.
     def set_age(self, pet_age):
         self.__age = int(pet_age)
+
+        # Part 4: Kung may setters, siyempre kailangan ng getters (accessors). Dito natin huhugutin yung pangalan at klase ng hayop kapag kailangan na natin ipagmalaki sa mga kapitbahay.
+    def get_name(self):
+        return self.__name
+        
+    def get_animal_type(self):
+        return self.__animal_type
